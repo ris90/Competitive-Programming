@@ -1,1 +1,52 @@
 
+* Local or working Directory - Stage - Local Repository
+
+* Basic Commands :
+
+ mkdir newfolder // make directory 
+ touch one.txt // create file 
+ clear 
+ cd ../   // back 
+ 
+ git init // 
+ git clone url // 
+ git status // 
+  
+ Stage : 
+ git add --all or -A // 
+ git add . // folder 
+ git * // without deleted files 
+ git add one.txt //
+ git add *.txt
+ git reset 
+ 
+ Local Repository / Commit :
+ 
+ git commit -m "I have made some  changes"
+ git reset HEAD~ // go back to stage 
+   
+   
+ RM :
+ git rm one.txt
+ git reset --hard // undo delete 
+ 
+ git rm -cached one.txt // change will be added tp stage but working directory will be same
+ git rm -r folder 
+ 
+ Braching :
+ 
+ git branch // show all branches 
+ git branch dev // creat a new branch called dev
+ git checkout dev // move to dev branch
+ git merge dev -m " "
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
