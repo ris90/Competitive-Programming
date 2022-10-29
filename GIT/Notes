@@ -2,12 +2,10 @@
 * Local or working Directory - Stage - Local Repository
 
 * Basic Commands :
-
  mkdir newfolder // make directory 
  touch one.txt // create file 
  clear 
  cd ../   // back 
- 
  git init // 
  git clone url // 
  git status // 
@@ -21,7 +19,6 @@
  git reset 
  
  Local Repository / Commit :
- 
  git commit -m "I have made some  changes"
  git reset HEAD~ // go back to stage 
    
@@ -29,23 +26,20 @@
  RM :
  git rm one.txt
  git reset --hard // undo delete 
- 
  git rm -cached one.txt // change will be added tp stage but working directory will be same
  git rm -r folder 
  
- Braching :
  
+ Braching :
  git branch // show all branches 
  git branch dev // creat a new branch called dev
  git checkout dev // move to dev branch
- git merge dev -m " "
+ git merge dev -m  "Give a message" 
  
- 
- 
-  
- 
- 
- 
+ Push:
+ git push origin main
+ git fetch // only changes
+ git pull // git fetch + git merge 
  
  
  
